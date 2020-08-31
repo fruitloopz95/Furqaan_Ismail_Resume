@@ -1,0 +1,224 @@
+#navbar 
+{
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  z-index:3;
+}
+
+#navbar a
+{
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#navbar a:hover
+{
+    background-color:rgba(255, 255, 255, 0.6);
+}
+
+#bannerDiv
+{
+  height: 550px;
+  background-image: url("images/banner abstract.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-size: 50px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-family: "Gungsuh";
+ /* opacity : 60%;*/
+}
+
+
+
+#AboutDiv, #EduDiv ,#WorkDiv, #ProjectDiv ,#ContactDiv
+{
+ 
+  font-family: Palatino Linotype;
+}
+
+
+#AboutDiv
+{
+  background-image: url("images/ct.jpg");
+  color :white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:450px;
+
+}
+
+#EduDiv 
+{
+height:450px;
+  background-image: url("images/books.jpg");
+  color :white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#WorkDiv
+{
+  background-image: url("images/desk.jpg");
+  color :white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:450px;
+}
+
+#aboutPara
+{
+  margin-left:60px; 
+  margin-top: 60px;
+  width: 400px;
+  background-color:rgba(255, 255, 255, 0.6);
+  color: black;
+  padding:5px;
+}
+
+.eduParagraph 
+{
+  
+  width: 400px;
+  background-color:rgba(255, 255, 255, 0.6);
+  color: black;
+  padding:5px;
+}
+
+#eduParaDiv
+{
+  margin-left:60px; 
+  margin-top: 60px;
+}
+
+#Workpara
+{
+  margin-left:60px; 
+  margin-top: 60px;
+  width: 400px;
+  background-color:rgba(255, 255, 255, 0.6);
+  color: black;
+  padding:5px;
+}
+#WorkLang
+{
+   margin-left:auto; 
+  margin-top: auto;
+ text-align: center;
+  background-color:rgba(255, 255, 255, 0.6);
+  color: black;
+  padding:5px;
+}
+#ProjectDiv
+{
+  background-image: url("images/sticky.jpg");
+  color :white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:450px;
+  position: relative;
+  z-index:2;
+}
+
+#ContactDiv
+{
+  background-color: black;
+  color :white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:250px;
+}
+
+#intro
+{
+   margin-top: 0px;
+}
+
+.langContainer
+{
+    text-align:center;
+}
+
+.langImg{
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+    height : 80px;
+    width: 85px;
+    border:1px solid #CCC;
+}
+
+.projectPics
+{
+   display:inline-block;
+    margin-top: 55px ;
+    padding:5px;
+    height : 250px;
+    width: 285px;
+    border:1px solid #CCC;
+
+}
+.bottom-right 
+{
+  position: absolute;
+  bottom: 20px;
+  right: 16px;
+}
+
+.ProfilePics
+{
+   display:inline-block;
+    margin:55px 20px;
+    padding:5px;
+    height : 300px;
+    width: 285px;
+    border:1px solid #CCC;
+}
+
+.nameHeading
+{
+   text-align:center;
+}
+
+.titleHeadings
+{
+
+  margin-left: 15px;
+  margin-top: 15px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#contactNum
+{
+  color:#0366fc;
+}
+#projectDetails
+{
+  width: 300px;
+  color: black;
+  margin-left: auto;
+  background-color:rgba(255, 255, 255, 0.6);
+  margin-right: auto;
+}
